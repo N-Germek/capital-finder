@@ -14,5 +14,4 @@ class Handler(BaseHTTPRequestHandler):
         # datetime: get the date and time now, .strftime: returns string representing date formatted as year, month,
         # day, hour, minute, second,.encode:
         self.wfile.write(str(datetime.now().strftime('%Y-%m-%d %H:%M:%S')).encode())
-        print("Hello World")
         return
