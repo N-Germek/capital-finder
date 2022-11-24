@@ -28,3 +28,10 @@ Stretch Goals:
 
 ### Approach and efficiency
 Version 1.0 - Nov 24, 2022 Created Serverless project and established connection with Vercel. Installed dependencies and tested with Hello World and date.py. Started countries.py to identify country and capital.
+
+TODO:
+Correct query parameters in countries.py to proper syntax and formatting for country and capital. 
+Add .env file if Vercel will not function without. 
+Update Vercel profile in terminal so after global install, it functions and 'vercel' prompt no longer returns "zsh: command not found: vercel".
+Re-watch lecture from 2:02 for missing steps to troubleshoot error in install, then continue with refactoring countries.
+Update README with version and completion notes.
