@@ -22,19 +22,16 @@ Stretch Goals:
 
 ## API
 
+
 [Date Example Working Site](https://serverless-4c6c4tycw-n-germek.vercel.app/api/date)
 [Hello World Working Site](https://serverless-4c6c4tycw-n-germek.vercel.app/api/hello_world)
 [Countries and Capitals](/api/countries.py)
 
 ### Approach and efficiency
-Version 1.0 - Nov 24, 2022 Created Serverless project and established connection with Vercel. Installed dependencies and tested with Hello World and date.py. Started countries.py to identify country and capital.
+Version 1.0 - Nov 24, 2022 Created Serverless project and established connection with Vercel. Installed dependencies and
+tested with Hello World and date.py. Started countries.py to identify country and capital.
 
-TODO:
-Correct query parameters in countries.py to proper syntax and formatting for country and capital. 
-Add .env file if Vercel will not function without. 
-Update Vercel profile in terminal so after global install, it functions and 'vercel' prompt no longer returns "zsh: command not found: vercel".
-Re-watch lecture from 2:02 for missing steps to troubleshoot error in install, then continue with refactoring countries.
-Update README with version and completion notes.
-Rename Github project and local to capital-finder.
-Rename Vercel project to capital-finder-natalija-germek
+Version 2.0 - December 7, 2022 renamed project to capital-finder, refactored countries.py, updated README.md file and
+link to vercel. 
+
 
