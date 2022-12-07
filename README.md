@@ -35,3 +35,6 @@ Add .env file if Vercel will not function without.
 Update Vercel profile in terminal so after global install, it functions and 'vercel' prompt no longer returns "zsh: command not found: vercel".
 Re-watch lecture from 2:02 for missing steps to troubleshoot error in install, then continue with refactoring countries.
 Update README with version and completion notes.
+Rename Github project and local to capital-finder.
+Rename Vercel project to capital-finder-natalija-germek
+
