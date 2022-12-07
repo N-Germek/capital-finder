@@ -34,4 +34,5 @@ tested with Hello World and date.py. Started countries.py to identify country an
 Version 2.0 - December 7, 2022 renamed project to capital-finder, refactored countries.py, updated README.md file and
 link to vercel. 
 
-
+TODO: 
+troubleshoot vercel and github for serverless project.
