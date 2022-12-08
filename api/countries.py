@@ -3,12 +3,12 @@ from urllib import parse
 import requests
 
 
-class Handler(BaseHTTPRequestHandler):
+class handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         BASE_URL = "https://restcountries.com/v3.1"
-        path = self.path
-        url_components = parse.urlsplit(path)
+        s = self.path
+        url_components = parse.urlsplit(s)
         query_string_list = parse.parse_qsl(url_components.query)
         dic = dict(query_string_list)
 
