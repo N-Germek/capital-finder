@@ -19,16 +19,16 @@ class handler(BaseHTTPRequestHandler):
             message = "Located country and capital"
         elif country:
             url = f"{BASE_URL}/name/{country}"
-            req = requests.get(url)
-            info = req.json()
-            capitals = info[0]["capital"]
-            joined_caps = " and ".join(capitals)
-            message = f"The capital of {country} is {joined_caps}"
+            r = requests.get(url)
+            data = r.json()
+            capitals = data[0]["capital"]
+            joined_capitals = " and ".join(capitals)
+            message = f"The capital of {country} is {joined_capitals}"
         elif capital:
             url = f"{BASE_URL}/capital/{capital}"
-            req = requests.get(url)
-            info = req.json()
-            message = str(info)
+            r = requests.get(url)
+            data = r.json()
+            message = str(data)
 
         else:
             message = "Supply a country or capital please"
