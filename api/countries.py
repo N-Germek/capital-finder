@@ -3,7 +3,7 @@ from urllib import parse
 import requests
 
 
-class handler(BaseHTTPRequestHandler):
+class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         BASE_URL = "https://restcountries.com/v3.1"
